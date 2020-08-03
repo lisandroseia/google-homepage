@@ -1,0 +1,36 @@
+#page {
+    background-color: white;
+}
+
+#head {
+    margin-top: 0;
+    position: relative;
+    top: 10px;
+    color:#222222;
+}
+
+#menu {
+    display: flexbox;
+    float: right;
+    font-family: "helveticaneue","noto naskh arabic ui", "arial", "sans serif";
+    font-size: 13px;
+    margin-left: 0px;
+    justify-content: flex-end;
+    margin-right: 0px;
+    padding-right: 20px;
+}
+
+.menu-link {
+    color: #222222;
+    text-decoration: none;
+    margin: 5px;
+    opacity: 0.85;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+    color: black;
+    opacity: 1;
+}
+
+
