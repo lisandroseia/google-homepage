@@ -32,5 +32,136 @@
     color: black;
     opacity: 1;
 }
+.sign-in {
+    border: 1px solid #427BF4 ;
+    background-color: #427BF4 ;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: 700;
+text-decoration: none;
+border-radius: 2px;
+}
+#center {
+    margin-bottom: 0px;
+}
+
+#logo {
+    padding-top: 109px;
+    width: 272px;
+margin-left: 10%;
+}
+    
+    #main {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
+
+#searchbox {
+    font-size: 17px;
+    height: 34px;
+    line-height: 50px;
+    margin-top: 4px;
+    border: none;
+margin-left: 10%;
+    width: 500px;
+        height: 44px;
+        border-bottom-right-radius:24px;
+        border-top-right-radius: 24px;
+        border-top-left-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border: 1px solid #9AA0A6
+}
+
+::placeholder {
+ color: #9AA0A6;
+}
+
+#btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-style{
+    margin-right: 8px;
+    margin-top: 40px;
+    height:36px;
+    width: auto;
+    font-size: 14px;
+    color:rgb(95,99,104);
+}
+.lucky-button {
+    margin-right: 8%;
+    margin-left: px;
+    margin-top: 40px;
+    height:36px;
+    width: auto;
+    font-size: 14px;
+    color:rgb(95,99,104);
+}
+.link2{
+    text-decoration: none;
+}
+.link2:hover,.link2:active{
+    text-decoration: underline;
+}
+.footer{
+  height:80px;
+  margin:0px;
+  position:fixed;
+  width:100%;
+  bottom:0px;
+  color:rgb(34, 34, 34);
+  display:block;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13.3333px;
+  background-color:rgb(242,242,242);
+}
+.footer2{
+    height:50px;
+    bottom:35px;
+    background-attachment: scroll;
+    border-top-color:rgb(242,242,242);
+    border-bottom-color: rgb(154,160,166);
+    border-top-style: solid;
+    border-top-width: 1px;
+    left:0px;
+    line-height: 40px;
+    right: 0px;
+    visibility: visible;
+}
+.footer3{
+    color:rgba(0,0,0,0.54);
+    font-size: 15px;
+    padding-left: 27px;
+    text-align: left;
+    visibility: visible;
+}
+.footer4{
+background-attachment: scroll;
+margin-top:5px;
+right:0px;
+left:0px;
+}
+.footer5{
+color:rgba(0,0,0,0.54);
+font-size:15px;
+padding-left:27px;
+text-align: left;
+}
+._links{
+    color:rgba(0,0,0,0.54);
+    text-decoration: none;
+    font-size: 15px;
+}
+._links:active,._links:hover{
+    text-decoration:underline;
+}
 
 
